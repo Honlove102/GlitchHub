@@ -4546,8 +4546,6 @@ Page2.MouseButton1Down:connect(function()
 	Page2.Visible = false
 	TimeStop.Visible = true
 	AimLock.Visible = true
-	MadCity.Visible = true
-	MadLads.Visible = true
 end)
 
 infyield.Name = "inf yield"
@@ -4594,8 +4592,6 @@ Page1.MouseButton1Down:connect(function()
 	FPS.Visible = false
 	TimeStop.Visible = false
 	AimLock.Visible = false
-	MadCity.Visible = false
-	MadLads.Visible = false
 end)
 
 BloxTap.Name = "Blox Tap"
@@ -8590,6 +8586,8 @@ MainPage2.MouseButton1Down:connect(function()
 	MainPage2.Visible = false
 	MainPage1.Visible = true
 	BigPaint.Visible = true
+	MadLads.Visible = true
+	MadCity.Visible = true
 end)
 
 MainPage1.Name = "MainPage1"
@@ -8614,6 +8612,8 @@ MainPage1.MouseButton1Down:connect(function()
 	MainPage1.Visible = false
 	MainPage2.Visible = true
 	BigPaint.Visible = false
+	MadCity.Visible = false
+	MadLads.Visible = false
 end)
 BigPaint.Name = "BigPaint"
 BigPaint.Parent = MainHub
