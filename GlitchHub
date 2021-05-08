@@ -391,7 +391,7 @@ Page2.MouseButton1Down:connect(function()
 	Page2.Visible = false
 	TimeStop.Visible = true
 	AimLock.Visible = true
-	FEInvis.Visible = true
+	FEInvis.Visible = false
 end)
 
 infyield.Name = "inf yield"
@@ -437,7 +437,7 @@ Page1.MouseButton1Down:connect(function()
 	BloxTap.Visible = false
 	TimeStop.Visible = false
 	AimLock.Visible = false
-	FEInvis.Visible = false
+	FEInvis.Visible = true
 end)
 
 BloxTap.Name = "Blox Tap"
